@@ -20,10 +20,11 @@ const Header = () => {
             <a href='/' className={styles.nav_links}>Home</a>
             <a className={styles.nav_links}>About Us</a>
             <a href="/projects/rcorp" className={styles.nav_links}>Projects</a>
-            <div className={styles.phone}>
+            <a href='/contactus' className={styles.nav_links}>Contact Us</a>
+            {/* <div className={styles.phone}>
                 <i className='fas fa-phone-alt' />
             <a href='tel:16602637173' target='_blank' role='link' rel='noopener' className={styles.nav_links}>(660) 263-7173</a>
-            </div>
+            </div> */}
         </nav>
         <a className={styles.navicon} onClick={handleShow}>
             <i className='fa fa-bars' />
