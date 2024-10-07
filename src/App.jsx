@@ -1,6 +1,7 @@
 import Features from "./landingpage/Features"
 import Header from "./landingpage/Header"
 import Hero from "./landingpage/Hero"
+import Projects from "./projects"
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
      <Header />
      <Hero />
      <Features />
+     <Projects />
     </>
   )
 }
