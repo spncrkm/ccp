@@ -50,7 +50,7 @@ body {
   position: absolute;
   width: 200px;
   height: 250px;
-  top: 10%;
+  top: 20%;
   left: calc(50% - 100px);
   transform-style: preserve-3d;
   transform: perspective(1000px);
@@ -85,4 +85,5 @@ body {
   /* background: linear-gradient(to right, #2f8ba1, #aebc43, #ec9455); */
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  top: 0;
 }
