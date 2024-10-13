@@ -19,7 +19,7 @@
 .img_container {
   position: absolute;
   top: 0;
-  left: 600px;
+  left: 40%;
   z-index: -2;
   background-image: linear-gradient(to right, white 5%, transparent);
 }
@@ -34,7 +34,7 @@
   position: absolute;
   top: 0;
   z-index: -1;
-  background-image: linear-gradient(to right, white 50%, transparent);
+  background-image: linear-gradient(to right, white 60%, transparent);
 }
 
 .chatbubble {
@@ -49,7 +49,7 @@
   grid-template-columns: 1fr, 3fr;
   justify-content: space-around;
   align-items: center;
-  left: 1000px;
+  right: 10%;
   bottom: 0;
 }
 .chatbubble h1 {
