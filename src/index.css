@@ -71,7 +71,7 @@ body {
   inset: 0 0 0 0;
   transform: 
     rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg)) 
-    translateZ(550px);
+    translateZ(650px);
 }
 .banner .slider .item img{
   width: 150px;
@@ -86,4 +86,20 @@ body {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   top: 0;
+}
+
+@media screen and (max-width: 1920px) {
+  .banner .slider .item {
+    transform: 
+    rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg)) 
+    translateZ(550px);
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  .banner .slider .item {
+    transform: 
+    rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg)) 
+    translateZ(450px);
+  }
 }
