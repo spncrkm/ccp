@@ -2,7 +2,7 @@
     display: block;
   height: 700px;
   position: relative;
-  padding-left: 140px;
+  padding-left: 300px;
   padding-right: 80px;
 }
 .h1text {
@@ -34,7 +34,7 @@
   position: absolute;
   top: 0;
   z-index: -1;
-  background-image: linear-gradient(to right, white 60%, transparent);
+  background-image: linear-gradient(to right, white 45%, transparent);
 }
 
 .chatbubble {
@@ -79,4 +79,29 @@
     background-color: #ec9455;
     color: white;
     border: none;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1920px) {
+    .hero_container {
+      padding-left: 250px;
+    }
+}
+
+@media screen and (max-width: 1600px){
+  .hero_container {
+    padding-left: 150px;
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  .chatbubble {
+    bottom: 60px;
+  }
+  .img_container {
+    left: auto;
+  }
+  .img_gradient {
+    background-image: linear-gradient(to right, white 10%, transparent);
+  }
 }
