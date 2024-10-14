@@ -7,6 +7,7 @@ const Hero = () => {
     <div className={styles.hero_container}>
       <div className={styles.h1text}>
         <h1>Building a Stronger Community</h1>
+        <br/>
         <p>We engage the community in action towards enhancing the quality of life for everyone.</p>
         <button className={styles.btn_hero}>Learn More</button>
       </div>

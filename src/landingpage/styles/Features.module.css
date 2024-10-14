@@ -1,11 +1,13 @@
 .container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin-top: 100px;
+    grid-template-columns: repeat(2, 500px);
+    margin-top: 1em;
     margin-bottom: 100px;
     justify-items: center;
+    justify-content: center;
     align-items: center;
     padding: 0 100px;
+    column-gap: 200px;
 }
 
 .cards {
