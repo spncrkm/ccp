@@ -22,18 +22,19 @@ const images = [
 
 const Features = () => {
   return (
-    <div className='banner'>
-      <div className="slider" style={{ '--quantity': images.length }}>
-        {images.map((image,index) => (
-          <div key={index} className='item' style={{ '--position': index + 1}}>
-            <img src={image} alt={`Feature ${index + 1}`} />
-          </div>
-        ))}
-      </div>
-        <div className='partner-text'>
+    <>
+    <div className='partner-text'>
           <h2 className={style.sectionHeadText}>Partners</h2>
         </div>
+    <div className='banner'>
+        {images.map((image,index) => (
+          <div key={index} className='item'>
+            <img src={image} />
+          </div>
+        ))}
+        
     </div>
+    </>
   )
 }
 
