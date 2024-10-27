@@ -65,3 +65,39 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.img-container {
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+  justify-content: center;
+  column-gap: 40px;
+  margin: 5em 0;
+}
+
+.img-container img{
+  height: 300px;
+  width: 300px;
+  padding: 10px;
+}
+
+.text-container {
+  display: flex;
+  margin: 50px 200px;
+}
+
+.img-container div {
+  display: inline-block;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.img-container div.selected {
+  transform: scale(1.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  border: 2px solid #2f8ba1;
+  border-radius: 10px;
+}
+
+.img-container div:not(.selected):hover {
+  transform: scale(1.05);
+}
