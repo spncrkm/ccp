@@ -82,7 +82,8 @@ body {
 
 .text-container {
   display: flex;
-  margin: 50px 200px;
+  margin: 100px 200px;
+  padding: 100px 100px;
 }
 
 .img-container div {
