@@ -4,7 +4,7 @@ import { IClogo, rcorp } from "../assets";
 import Footer from "../landingpage/Footer";
 
 const ProjectsPage = () => {
-  const [selectedImg, setSelectedImg] = useState("");
+  const [selectedImg, setSelectedImg] = useState("rcorp");
 
   const handleSelect = (img) => {
     setSelectedImg(img);

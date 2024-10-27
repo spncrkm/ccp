@@ -14,12 +14,12 @@ const Header = () => {
   return (
     <div className={styles.header_container}>
         <div className={styles.logo}>
-        <img src={ccplogo} />
+          <a href='/'><img src={ccplogo} /></a>  
         </div>
         <nav className={`${styles.nav} ${show ? styles.show : ''}`}>
             <a href='/' className={styles.nav_links}>Home</a>
             <a className={styles.nav_links}>About Us</a>
-            <a href="/projects/rcorp" className={styles.nav_links}>Projects</a>
+            <a href="/projects" className={styles.nav_links}>Projects</a>
             <a href='/services' className={styles.nav_links}>Services</a>
             <a href='/contactus' className={styles.nav_links}>Contact Us</a>
             {/* <div className={styles.phone}>
